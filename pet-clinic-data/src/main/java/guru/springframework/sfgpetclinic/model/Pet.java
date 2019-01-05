@@ -2,11 +2,14 @@ package guru.springframework.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
+/**
+ * Created by jt on 7/13/18.
+ */
 public class Pet {
 
     private PetType petType;
     private Owner owner;
-    private LocalDate birthDay;
+    private LocalDate birthDate;
 
     public PetType getPetType() {
         return petType;
@@ -24,11 +27,11 @@ public class Pet {
         this.owner = owner;
     }
 
-    public LocalDate getBirthDay() {
-        return birthDay;
+    public LocalDate getBirthDate() {
+        return birthDate;
     }
 
-    public void setBirthDay(LocalDate birthDay) {
-        this.birthDay = birthDay;
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
     }
 }

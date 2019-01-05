@@ -1,6 +1,10 @@
 package guru.springframework.sfgpetclinic.model;
 
+/**
+ * Created by jt on 7/13/18.
+ */
 public class Person {
+
     private String firstName;
     private String lastName;
 
@@ -8,12 +12,12 @@ public class Person {
         return firstName;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 
     public void setLastName(String lastName) {
